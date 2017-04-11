@@ -18,13 +18,6 @@ set foldmethod=indent           " fold code based on intentation
 set nowrap                      " NO WRAPPING LINES
 
 " #############################################################################
-" Splits
-" #############################################################################
-
-set splitbelow                  " horizontal splits open down
-set splitright                  " vertical splits open right
-
-" #############################################################################
 " Cursor And Numbers
 " #############################################################################
 
