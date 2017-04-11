@@ -23,6 +23,7 @@ set nowrap                      " NO WRAPPING LINES
 
 set smartindent                 " auto indents c-like blocks
 set shiftround                  " round indent to shiftwidth
+set tabstop=2                   " show hard tabs as 2 columns
 
 " #############################################################################
 " Cursor And Numbers
