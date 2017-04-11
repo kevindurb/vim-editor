@@ -16,8 +16,8 @@ set complete+=kspell            " add dictionary to completion
 set tags=tags;/                 " make ctags look up from cwd for tags file
 set foldmethod=indent           " fold code based on intentation
 set nowrap                      " NO WRAPPING LINES
-set listchars=tab:▸\ ,trail:␠   " make tab and trailing space have characters
-set list												" show invisibles
+set listchars=tab:▸\ ,space:·   " make tab and space have characters
+set list                        " show invisibles
 
 " #############################################################################
 " Smart Indenting
