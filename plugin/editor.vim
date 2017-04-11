@@ -6,7 +6,7 @@
 " #############################################################################
 " General
 " #############################################################################
-"
+
 set title                       " set title in terminal
 set wildmode=longest:list,full  " make command completion more like zsh
 set autowrite                   " save when you change buffers
@@ -16,6 +16,13 @@ set complete+=kspell            " add dictionary to completion
 set tags=tags;/                 " make ctags look up from cwd for tags file
 set foldmethod=indent           " fold code based on intentation
 set nowrap                      " NO WRAPPING LINES
+
+" #############################################################################
+" Smart Indenting
+" #############################################################################
+
+set smartindent                 " auto indents c-like blocks
+set shiftround                  " round indent to shiftwidth
 
 " #############################################################################
 " Cursor And Numbers
